@@ -11,6 +11,14 @@
 		4D15C36E2D647F1F0062EF52 /* DownloadImagesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D15C36B2D647F1F0062EF52 /* DownloadImagesApp.swift */; };
 		4D15C36F2D647F1F0062EF52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D15C3672D647F1F0062EF52 /* Preview Assets.xcassets */; };
 		4D15C3702D647F1F0062EF52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D15C3692D647F1F0062EF52 /* Assets.xcassets */; };
+		4D15C3762D6481BE0062EF52 /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D15C3752D6481BA0062EF52 /* PhotoModel.swift */; };
+		4D15C3782D64826F0062EF52 /* DownloadingImagesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D15C3772D64825E0062EF52 /* DownloadingImagesViewModel.swift */; };
+		4D15C37A2D64835B0062EF52 /* PhotoModelDataServies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D15C3792D6483500062EF52 /* PhotoModelDataServies.swift */; };
+		4D15C37C2D648B710062EF52 /* DownloadingImagesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D15C37B2D648B710062EF52 /* DownloadingImagesRow.swift */; };
+		4D15C37E2D648CD20062EF52 /* DownloadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D15C37D2D648CD20062EF52 /* DownloadingImageView.swift */; };
+		4D15C3802D648F1C0062EF52 /* ImageLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D15C37F2D648F0D0062EF52 /* ImageLoadingViewModel.swift */; };
+		4D15C3822D649BEA0062EF52 /* PhotoModelCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D15C3812D649BE20062EF52 /* PhotoModelCacheManager.swift */; };
+		4D15C3842D649D0C0062EF52 /* PhotoModelFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D15C3832D649D020062EF52 /* PhotoModelFileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		4D15C3692D647F1F0062EF52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D15C36A2D647F1F0062EF52 /* DownloadingImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImages.swift; sourceTree = "<group>"; };
 		4D15C36B2D647F1F0062EF52 /* DownloadImagesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImagesApp.swift; sourceTree = "<group>"; };
+		4D15C3752D6481BA0062EF52 /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		4D15C3772D64825E0062EF52 /* DownloadingImagesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImagesViewModel.swift; sourceTree = "<group>"; };
+		4D15C3792D6483500062EF52 /* PhotoModelDataServies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelDataServies.swift; sourceTree = "<group>"; };
+		4D15C37B2D648B710062EF52 /* DownloadingImagesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImagesRow.swift; sourceTree = "<group>"; };
+		4D15C37D2D648CD20062EF52 /* DownloadingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImageView.swift; sourceTree = "<group>"; };
+		4D15C37F2D648F0D0062EF52 /* ImageLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadingViewModel.swift; sourceTree = "<group>"; };
+		4D15C3812D649BE20062EF52 /* PhotoModelCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelCacheManager.swift; sourceTree = "<group>"; };
+		4D15C3832D649D020062EF52 /* PhotoModelFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelFileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +89,7 @@
 		4D15C3712D647FD80062EF52 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				4D15C3752D6481BA0062EF52 /* PhotoModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -80,6 +97,8 @@
 		4D15C3722D647FDF0062EF52 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				4D15C37F2D648F0D0062EF52 /* ImageLoadingViewModel.swift */,
+				4D15C3772D64825E0062EF52 /* DownloadingImagesViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -88,6 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				4D15C36A2D647F1F0062EF52 /* DownloadingImages.swift */,
+				4D15C37B2D648B710062EF52 /* DownloadingImagesRow.swift */,
+				4D15C37D2D648CD20062EF52 /* DownloadingImageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -95,6 +116,9 @@
 		4D15C3742D647FF50062EF52 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				4D15C3832D649D020062EF52 /* PhotoModelFileManager.swift */,
+				4D15C3812D649BE20062EF52 /* PhotoModelCacheManager.swift */,
+				4D15C3792D6483500062EF52 /* PhotoModelDataServies.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -172,8 +196,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D15C37A2D64835B0062EF52 /* PhotoModelDataServies.swift in Sources */,
+				4D15C3762D6481BE0062EF52 /* PhotoModel.swift in Sources */,
+				4D15C37E2D648CD20062EF52 /* DownloadingImageView.swift in Sources */,
+				4D15C3802D648F1C0062EF52 /* ImageLoadingViewModel.swift in Sources */,
+				4D15C3842D649D0C0062EF52 /* PhotoModelFileManager.swift in Sources */,
 				4D15C36D2D647F1F0062EF52 /* DownloadingImages.swift in Sources */,
+				4D15C3782D64826F0062EF52 /* DownloadingImagesViewModel.swift in Sources */,
 				4D15C36E2D647F1F0062EF52 /* DownloadImagesApp.swift in Sources */,
+				4D15C3822D649BEA0062EF52 /* PhotoModelCacheManager.swift in Sources */,
+				4D15C37C2D648B710062EF52 /* DownloadingImagesRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

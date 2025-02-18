@@ -7,15 +7,28 @@
 
 import SwiftUI
 
+//background threads
+//weak self
+//combine
+// publisher and subscriber
+// filemanager
+// nscache
+
+
 struct DownloadingImages: View {
+    @StateObject var vm = DownloadingImagesViewModel()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack{
+            List{
+                ForEach(vm.dataArray){ model in
+                    DownloadingImagesRow(model: model)
+                }
+            }
+            .listStyle(.plain)
+            
+            .navigationTitle("Downloading Images!")
         }
-        .padding()
     }
 }
 
